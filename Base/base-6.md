@@ -1,4 +1,4 @@
-#基础面试题六
+ #基础面试题六
 ####strong / weak / unsafe_unretained 的区别
 * weak只能修饰OC对象,使用weak不会使计数器加1,对象销毁时修饰的对象会指向nil
 * strong等价与retain,能使计数器加1,且不能用来修饰数据类型
